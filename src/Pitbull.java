@@ -4,4 +4,8 @@ public class Pitbull extends Dog {
         this.description = description;
         this.price = price;
     }
+    @Override
+    public String getBreed() {
+        return getClass().getName();
+    }
 }

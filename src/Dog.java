@@ -1,10 +1,6 @@
 public abstract class Dog extends AdoptableAnimal {
-    String breed;
 
-    public abstract String getBreed() {
-        
-        return ;
-    }
+    public abstract String getBreed();
     @Override
     public double getPrice() {
         return super.getPrice();
